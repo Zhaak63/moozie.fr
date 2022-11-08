@@ -167,11 +167,13 @@ body {
 }
 
 .features .card {
+    text-align: center !important;
     background: #1D1E28;
     border-radius: 22px !important;
     border: 4px solid #ad81ff;
 }
 .features .card-text {
+    text-align: center !important;
 color: rgba(255, 255, 255, 0.46) !important
 }
 
@@ -180,6 +182,7 @@ color: rgba(255, 255, 255, 0.46) !important
 }
 
 .navbar-toggler-icon {
+    text-align: center !important;
     color: #fff !important
 }
 .footer {
@@ -190,6 +193,7 @@ color: rgba(255, 255, 255, 0.46) !important
 }
 
 .footer .nouridio {
+    text-align: center !important;
     font-family: 'Montserrat' !important;
     font-style: normal !important;
     font-weight: 600 !important;
