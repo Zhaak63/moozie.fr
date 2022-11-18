@@ -10,7 +10,7 @@ module.exports = withPlugins([withImages], {
 		return [
 			{
 				source: "/github",
-				destination: "https://github.com/SlipBey",
+				destination: "https://github.com/Zhaak63",
 				permanent: true,
 			},
 			{
