@@ -1,0 +1,260 @@
+{
+    "lang": [
+          {
+             "name": "commandes",
+             "text": "Commandes"
+          },
+          {
+            "name": "support",
+            "text": "Support"
+          },
+          {
+            "name": "home_button_add",
+            "text": "AJOUTER A DISCORD"
+          },
+          {
+            "name": "home_description",
+            "text": "CREE LE MEILLEUR SERVEUR DISCORD"
+          },
+          {
+            "name": "commands_general",
+            "text": "Général"
+          },
+          {
+            "name": "commands_moderation",
+            "text": "Modération"
+          },
+          {
+            "name": "commands_radio",
+            "text": "Radio"
+          },
+          {
+            "name": "commands_economy",
+            "text": "Economie"
+          },
+          {
+            "name": "commands_ticket",
+            "text": "Ticket"
+          }
+       ],
+    "commands_general": [
+          {
+            "name": "help",
+            "text": "liste de commandes du bot"
+          },
+          {
+            "name": "channelinfo",
+            "text": "information sur un channel vocal ou textuels"
+          },
+          {
+            "name": "userid [mention]",
+            "text": "Avoir l'id d'un membre"
+          },
+          {
+            "name": "upvote",
+            "text": "Commande pour aller voter pour le bot"
+          },
+          {
+            "name": "support",
+            "text": "Commande pour rejoindre le serveur support"
+          },
+          {
+            "name": "addme",
+            "text": "Commande pour ajouté le bot"
+          },
+          {
+            "name": "avis",
+            "text": "Commande pour donner un avis sur le bot"
+          },
+          {
+            "name": "time",
+            "text": "avoir la date et l'heure d'aujourd'hui "
+          },
+          {
+            "name": "about",
+            "text": "Informations sur le bot Moozie"
+          },
+          {
+            "name": "link",
+            "text": "commande pour afficher les liens important"
+          },
+          {
+            "name": "patchnote",
+            "text": "Commande pour avoir le details des patch du bot"
+          },
+          {
+            "name": "serverinfo",
+            "text": "information sur le serveur"
+          },
+          {
+            "name": "servers",
+            "text": "Nombre de serveurs"
+          },
+          {
+            "name": "stats",
+            "text": "informations sur un membre"
+          },
+          {
+            "name": "member",
+            "text": "savoir le nombres de membres sur le serveur"
+          },
+          {
+            "name": "uptime",
+            "text": "savoir quand le bot a été reboot"
+          },
+          {
+            "name": "welcome [mention]",
+            "text": "souhaiter la bienvenue a un nouveau membre"
+          }
+    ],
+    "commands_social": [
+    {
+      "name": "bingo [chiffre]",
+      "text": "jeux du juste prix"
+    },
+    {
+      "name": "covid",
+      "text": "stats sur le covid"
+    },
+    {
+      "name": "dice",
+      "text": "jeu de dées"
+    },
+    {
+      "name": "apex [pc,console] [pseudo]",
+      "text": "stats du jeux apex legends"
+    },
+    {
+      "name": "space",
+      "text": "photo de l'espace"
+    },
+    {
+      "name": "wasted [mention]",
+      "text": "Image wasted"
+    },
+    {
+      "name": "poll",
+      "text": "créé un sondage"
+    },
+    {
+      "name": "youtube [recherche]",
+      "text": "rechercher une vidéo youtube ou un youtubeur"
+    },
+    {
+      "name": "vraioufaux [message]",
+      "text": "jeux du vrai ou faux"
+    },
+    {
+      "name": "nasa",
+      "text": "photo de la nasa"
+    },
+    {
+      "name": "loves [mention]",
+      "text": "test de compatibilié avec une personnnes"
+    },
+    {
+      "name": "color",
+      "text": "couleur aléatoir"
+    }
+  ],
+  "commands_moderation": [
+    {
+      "name": "ban [mention]",
+      "text": "bannir un membre du serveur"
+    },
+    {
+      "name": "tempmute [mention] [temps]",
+      "text": "mute un membre pendant une durée limiter"
+    },
+    {
+      "name": "kick [mention]",
+      "text": "expulser un membre du serveur"
+    },
+    {
+      "name": "addrole [mention] [role]",
+      "text": "ajouter un role a un membre"
+    },
+    {
+      "name": "giveaway",
+      "text": "créé un giveaway"
+    },
+    {
+      "name": "antilink",
+      "text": "interdire les liens de d'autres serveur discord"
+    },
+    {
+      "name": "warn [mention] [raison]",
+      "text": "warn un membre"
+    },
+    {
+      "name": "clear [nombres]",
+      "text": "effacer les messages d'un channel"
+    }
+  ],
+  "commands_radio": [
+    {
+      "name": "stations",
+      "text": "listes des stations radios"
+    },
+    {
+      "name": "nrj",
+      "text": "radio web nrj (pop rap)"
+    },
+    {
+      "name": "radiofg",
+      "text": "radio web radiofg (electro)"
+    },
+    {
+      "name": "galaxie",
+      "text": "radio web galaxie (pop)"
+    },
+    {
+      "name": "virgin",
+      "text": "radioweb virgin (pop rap)"
+    },
+    {
+      "name": "skyrock",
+      "text": "radio web skyrock (rap)"
+    },
+    {
+      "name": "funradio",
+      "text": "radio web funradio (pop rap)"
+    },
+    {
+      "name": "mouvradio",
+      "text": "radio web mouvradio (electro pop)"
+    },
+    {
+      "name": "owr",
+      "text": "radio web One world radio (Tommorow-Land)"
+    },
+    {
+      "name": "rva",
+      "text": "radio web rva (pop)"
+    }
+  ],
+  "commands_economy": [
+    {
+      "name": "removecoin [mention] [montant]",
+      "text": "enlever de l'argent a un membre"
+    },
+    {
+      "name": "money",
+      "text": "Voir l'argent que vous posséder "
+    },
+    {
+      "name": "slots",
+      "text": "jeux de casino slots"
+    }
+  ],
+  "commands_ticket": [
+    {
+      "name": "ticket",
+      "text": "créé un ticket (que sur le serveur support)"
+    },
+    {
+      "name": "close",
+      "text": "fermé votre ticket"
+    }
+  ]
+}
