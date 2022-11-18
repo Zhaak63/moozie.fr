@@ -3,7 +3,7 @@ import { CONTACT } from "@libs/config/contact";
 const SEO = {
 	layoutTitle: "%s - EnderBot",
 	title: "EnderBot",
-	publishDomain: "https://enderrise.net",
+	publishDomain: "https://www.moozie.fr/",
 	themeColor: "#6D28D9",
 	keywords: [
 		"slipyme",
