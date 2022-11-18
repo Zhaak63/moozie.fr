@@ -122,3 +122,46 @@
 <script src="js/now-ui-kit.min.js"></script>
 </body>
 </html>
+        
+        
+<script src="/js/TweenMax.min.js"></script>
+<script>
+    
+
+    window.onhashchange = locationHashChanged;
+
+    function locationHashChanged() {
+        
+        var hash = window.location.hash;
+
+        if(!hash.indexOf("#commands")) {
+            $('#accueil').css('display', 'none');
+            $('#commandes').css('display', 'block');
+            $('.nav-commandes').css('opacity', '1');
+        } else {
+            $('#accueil').css('display', 'block');
+            $('#commandes').css('display', 'none');
+            $('.nav-commandes').css('opacity', '0.7');
+        }
+
+    }
+
+    function setlang($lang = "") {
+
+        $.getJSON('/lang/EN.json?cache=' + Math.floor((Math.random() * 100) + 1) + Math.floor((Math.random() * 100) + 1), function(data) {
+
+            $.each(data['lang'], function(key, value) { $( "[moozie=" + value['name'] + "]" ).html( value['text'] );});
+
+            var general = moderation = radio = level = economy = ticket = level = picture = "";
+
+            $.each(data['commands_help'], function(key, value) { general = general + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
+
+            $( "[moozie=list-commandes-help]" ).html( general );
+
+        });
+
+        $(".nav-lang").each(function (index, element) { $(element).css('opacity', '0.7'); });
+        $('.nav-' + $lang.toLowerCase() ).css('opacity', '1');
+    }
+</script>
+
