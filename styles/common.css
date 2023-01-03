@@ -3,12 +3,12 @@
 
 /* Body */
 :root {
-	--primary-color: #292a2e;
-	--secondary-color: #202024;
+	--primary-color: #1D1E28;;
+	--secondary-color: #1D1E28;;
 	--grey-text: #c9ccd6;
-	--error-color: #fc4747;
-	--purple: #663399;
-	--light-purple: #8f45d9;
+	--error-color: #835aff;
+	--purple: #835aff;
+	--light-purple: #835aff;
 }
 
 * {
@@ -27,7 +27,7 @@ html {
 body {
 	height: 100%;
 	flex-direction: column;
-	background-color: var(--primary-color);
+	background-color: #1D1E28;
 	line-height: 1.6;
 	color: #ffffff;
 	max-width: 100%;
@@ -44,8 +44,8 @@ body {
 	padding: 10px 30px;
 	border-radius: 5px;
 	display: inline-block;
-	background-color: var(--secondary-color);
-	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	background-color: #1D1E28;
+	box-shadow: 0 3px 10px #1D1E28;
 	transition: all 0.5s;
 }
 
@@ -65,7 +65,7 @@ body {
 	color: #ffffff;
 	height: 70px;
 	font-weight: 400;
-	background-color: var(--secondary-color);
+	background-color: #1D1E28;
 	border-bottom: var(--purple) 5px solid;
 }
 
@@ -115,7 +115,7 @@ body {
 	border-top: var(--purple) 5px solid;
 	padding: 30px;
 	height: 200px;
-	background-color: var(--secondary-color);
+	background-color: #1D1E28;
 }
 
 .footer h4 {
