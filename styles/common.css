@@ -4,7 +4,7 @@
 /* Body */
 :root {
 	--primary-color: #1D1E28;;
-	--secondary-color: #1D1E28;;
+	--secondary-color: #1e1e1b;;
 	--grey-text: #c9ccd6;
 	--error-color: #835aff;
 	--purple: #835aff;
@@ -45,7 +45,7 @@ body {
 	border-radius: 5px;
 	display: inline-block;
 	background-color: #1D1E28;
-	box-shadow: 0 3px 10px #1D1E28;
+	box-shadow: 0 3px 10px #1e1e1b;
 	transition: all 0.5s;
 }
 
