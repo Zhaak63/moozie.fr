@@ -1,9 +1,9 @@
 .commands a {
-	color: var(--purple);
+	color: #835aff;
 }
 
 a:hover {
-	color: var(--light-purple);
+	color: #835aff;
 }
 
 pre,
