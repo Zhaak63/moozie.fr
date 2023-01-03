@@ -11,7 +11,7 @@ p {
 }
 
 pre {
-	background: #26292e;
+	background: #1D1E28;
 	padding: 1px 5px;
 	margin: 0 5px;
 	border-radius: 5px;
@@ -29,7 +29,7 @@ pre {
 	background-clip: padding-box;
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #1D1E28;
 }
 
 ::-webkit-scrollbar-corner {
@@ -42,7 +42,7 @@ pre {
 
 ::-webkit-scrollbar-thumb {
 	width: 10px;
-	background: #202024;
+	background: #1D1E28;
 	background-clip: padding-box;
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
@@ -51,7 +51,7 @@ pre {
 
 ::-webkit-scrollbar-thumb:hover {
 	width: 10px;
-	background: #19191c;
+	background: #1D1E28;
 	background-clip: padding-box;
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
