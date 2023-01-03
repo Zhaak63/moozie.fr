@@ -62,7 +62,7 @@ code {
 
 .accordion_label:hover {
 	border-radius: 5px;
-	background: rgba(0, 0, 0, 0.1);
+	background: #1D1E28;
 }
 
 .accordion_label::after {
@@ -100,7 +100,7 @@ code {
 
 .commands .card {
 	padding: 5px 10px;
-	background-color: var(--primary-color);
+	background-color: #1D1E28;
 }
 
 /* Command Content */
