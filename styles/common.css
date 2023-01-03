@@ -45,7 +45,7 @@ body {
 	border-radius: 5px;
 	display: inline-block;
 	background-color: #1D1E28;
-	box-shadow: 0 3px 10px #1e1e1b;
+	box-shadow: 0 3px 10px #1D1E28;  /* fond command */
 	transition: all 0.5s;
 }
 
