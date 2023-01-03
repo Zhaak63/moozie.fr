@@ -1,5 +1,5 @@
 a {
-	color: var(--purple);
+	color: #835aff
 }
 
 .footernav a {
@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-	color: var(--light-purple);
+	color: #835aff
 }
 
 h2,

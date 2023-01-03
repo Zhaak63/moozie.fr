@@ -66,7 +66,7 @@ body {
 	height: 70px;
 	font-weight: 400;
 	background-color: #1D1E28;
-	border-bottom: var(--purple) 5px solid;
+	border-bottom: #835aff 5px solid;
 }
 
 .navbar ul {
@@ -86,7 +86,7 @@ body {
 
 .navbar .currentPage,
 .navbar .currentPage:hover {
-	color: var(--light-purple);
+	color: #835aff;
 }
 
 .navbar .flex {
@@ -112,14 +112,14 @@ body {
 /* Footer */
 .footer {
 	width: 100%;
-	border-top: var(--purple) 5px solid;
+	border-top: #835aff 5px solid;
 	padding: 30px;
 	height: 200px;
 	background-color: #1D1E28;
 }
 
 .footer h4 {
-	color: var(--light-purple);
+	color: #835aff;
 	font-weight: 400;
 	font-size: 1.5rem;
 }
