@@ -108,113 +108,113 @@
                     <div class='content accordion'>
                         <div class='card'>
                             <input type='checkbox' id='filters' class='accordion_input'>
-                            <label for='filters' class='accordion_label'>Filters</label>
+                            <label for='filters' class='accordion_label'>Bassboost</label>
                             <div class='content'>
-                                <p>Add a filter your queue of songs.</p>
+                                <p>Enables bass boosting audio effect.</p>
                                 <div class='flex usage'>
                                     <h4>Usage: </h4>
-                                    <pre><code>filter [ filter ]</code></pre>
+                                    <pre><code>+bassboost none|low|medium|high</code></pre>
                                 </div>
                                 <div class='flex usage'>
                                     <h4>Example: </h4>
-                                    <pre><code>filter bassboost</code></pre>
-                                </div>
-                                <div class='flex usage'>
-                                    <h4>Aliases: </h4>
-                                    <pre><code>filters</code></pre>
+                                    <pre><code>+bassboost high</code></pre>
                                 </div>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='now-playing' class='accordion_input'>
-                            <label for='now-playing' class='accordion_label'>Now Playing</label>
+                            <label for='now-playing' class='accordion_label'>Bump</label>
                             <div class='content'>
-                                <p>Get information about the currently playing song.</p>
+                                <p>Moves a track to the front of the queue.</p>
                                 <div class='flex usage'>
                                     <h4>Aliases: </h4>
-                                    <pre><code>np</code></pre>
+                                    <pre><code>+bump</code></pre>
                                 </div>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='stop' class='accordion_input'>
-                            <label for='stop' class='accordion_label'>Stop</label>
+                            <label for='stop' class='accordion_label'>Clear</label>
                             <div class='content'>
-                                <p>Stop the queue and leave the voice channel.</p>
+                                <p> Clears the server queue.</p>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='resume' class='accordion_input'>
-                            <label for='resume' class='accordion_label'>Resume</label>
+                            <label for='resume' class='accordion_label'>Config</label>
                             <div class='content'>
-                                <p>Resume a paused track.</p>
+                                <p>Edit the bot settings.</p>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='pause' class='accordion_input'>
-                            <label for='pause' class='accordion_label'>Pause</label>
+                            <label for='pause' class='accordion_label'>Help</label>
                             <div class='content'>
-                                <p>Pause the current track.</p>
+                                <p>Information about the bot.</p>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='play' class='accordion_input'>
-                            <label for='play' class='accordion_label'>Play</label>
+                            <label for='play' class='accordion_label'>Disconnect</label>
                             <div class='content'>
-                                <p>Play a song via a link or name. Currently supporting: YouTube, Spotify, Soundcloud,
-                                    and Discord MP3's</p>
-                                <div class='flex usage'>
-                                    <h4>Usage: </h4>
-                                    <pre><code>play < song url || name ></code></pre>
-                                </div>
-                                <div class='flex usage'>
-                                    <h4>Example: </h4>
-                                    <pre><code>play Martin Garrix Animals</code></pre>
-                                </div>
-                                <div class='flex usage'>
-                                    <h4>Aliases: </h4>
-                                    <pre><code>p</code></pre>
+                                <p>Stop the music and leave the voice channel.</p>
                                 </div>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='playlist' class='accordion_input'>
-                            <label for='playlist' class='accordion_label'>Play Playlist</label>
+                            <label for='playlist' class='accordion_label'>Grab</label>
                             <div class='content'>
-                                <p>Play a playlsit via a link or name. Currently supporting: Youtube and Spotify</p>
-                                <div class='flex usage'>
-                                    <h4>Usage: </h4>
-                                    <pre><code>play-playlist < playlist url || name ></code></pre>
-                                </div>
-                                <div class='flex usage'>
-                                    <h4>Example: </h4>
-                                    <pre><code>play-playlist EDM</code></pre>
-                                </div>
-                                <div class='flex usage'>
-                                    <h4>Aliases: </h4>
-                                    <pre><code>pp</code></pre>
+                                <p>Saves the current song to your Direct Messages.</p>
                                 </div>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='skip' class='accordion_input'>
-                            <label for='skip' class='accordion_label'>Skip</label>
+                            <label for='skip' class='accordion_label'>Invite</label>
                             <div class='content'>
-                                <p>Skip the rest of the current song.</p>
+                                <p>To invite me to your server.</p>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='loop' class='accordion_input'>
-                            <label for='loop' class='accordion_label'>Loop</label>
+                            <label for='loop' class='accordion_label'>loop</label>
                             <div class='content'>
-                                <p>Loop the queue.</p>
+                                <p>Loop the current song.</p>
                             </div>
                         </div>
                         <div class='card'>
                             <input type='checkbox' id='queue' class='accordion_input'>
-                            <label for='queue' class='accordion_label'>Queue</label>
+                            <label for='queue' class='accordion_label'>Loopqueue</label>
                             <div class='content'>
-                                <p>Check the current song and the next 10 playing.</p>
+                                <p>Loop the whole queue.</p>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='now-playing' class='accordion_input'>
+                            <label for='now-playing' class='accordion_label'>Lyrics</label>
+                            <div class='content'>
+                                <p>Shows the lyrics of the song searched.</p>
+                                <div class='flex usage'>
+                                    <h4>Usage: </h4>
+                                    <pre><code>+lyrics [Song Name]</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='now-playing' class='accordion_input'>
+                            <label for='now-playing' class='accordion_label'>Move</label>
+                            <div class='content'>
+                                <p>Moves a track to a specified position.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='now-playing' class='accordion_input'>
+                            <label for='now-playing' class='accordion_label'>Move</label>
+                            <div class='content'>
+                                <p>Moves a track to a specified position.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
